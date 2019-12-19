@@ -1,0 +1,96 @@
+.element__ {
+    width: 1367px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    .el-main {
+        flex: none;
+        width: 1062px!important;
+        height: auto!important;
+        line-height: normal!important;
+        text-align: left!important;
+    }
+}
+
+.top-left {
+    .el-input__inner {
+        height: 26px!important;
+        line-height: 26px;
+        border-radius: 10px;
+    }
+}
+
+.to-input {
+    .ivu-modal-content {
+        width: 360px!important;
+        height: 660px!important;
+    }
+}
+
+.top_____ {
+    .el-tabs--bottom .el-tabs__item.is-bottom:nth-child(2),
+    .el-tabs--bottom .el-tabs__item.is-top:nth-child(2),
+    .el-tabs--top .el-tabs__item.is-bottom:nth-child(2),
+    .el-tabs--top .el-tabs__item.is-top:nth-child(2) {
+        padding-left: 90px !important;
+    }
+}
+
+.inp__ {
+    .el-form-item el-form-item--feedback {
+        display: flex;
+        justify-content: center;
+    }
+    .el-input {
+        margin-left: -85px;
+    }
+    .el-input__inner {
+        height: 35px!important;
+        width: 240px!important;
+    }
+    .el-input__suffix {
+        right: -56px;
+    }
+    .el-button {
+        width: 200px;
+        height: 35px;
+        margin-left: -70px;
+        margin-top: 30px;
+    }
+}
+
+.inp___ {
+    .el-input__inner {
+        height: 35px!important;
+        width: 135px!important;
+    }
+    .el-button {
+        width: 90px!important;
+        margin-left: 66px;
+        margin-top: 10px;
+        text-align: center;
+        padding: 0;
+        right: -105px;
+        position: absolute;
+        top: -8px;
+    }
+    .el-form-item__error {
+        margin-left: -30px;
+    }
+    .el-input__suffix {
+        margin-left: 50px!important;
+    }
+    .el-button.is-round {
+        padding: 0;
+        border-radius: 5px;
+    }
+    .inp___ .el-button {
+        margin-top: -100px!important;
+    }
+    .input__suffix {
+        margin-left: 20px!important;
+    }
+    .el-input__suffix {
+        right: -78px!important;
+    }
+}

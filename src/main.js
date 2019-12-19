@@ -7,8 +7,11 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import service from "./http"
 import dayjs from 'dayjs'
+import ViewUI from 'view-design';
+import 'view-design/dist/styles/iview.css';
+import 'github-markdown-css'
 
-
+Vue.use(ViewUI);
 Vue.use(ElementUI)
 
 // 把service对象挂载在Vue的原型对象上
