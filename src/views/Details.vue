@@ -94,7 +94,7 @@ export default {
     },
     distanceTime(oldTime) {
       let newTime = new Date();
-      //  let time2 = this.$dayjs(newTime).format('YYYY-MM-DD hh:mm:ss')
+        //  let time2 = this.$dayjs(newTime).format('YYYY-MM-DD hh:mm:ss')
       // valueOf是转换成时间戳
       let sputTme =
         this.$dayjs(newTime).valueOf() - this.$dayjs(oldTime).valueOf();
